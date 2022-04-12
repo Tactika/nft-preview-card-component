@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub/Tactika](https://project-nft.projektz.dev)
+- Solution URL: [FrontendMentor.io/Tactika](https://www.frontendmentor.io/solutions/project-nft-HywSGTzV5)
+- GitHub URL: [GitHub.com/Tactika](https://github.com/Tactika/nft-preview-card-component)
 - Live Site URL: [project-nft.projektz.dev](https://project-nft.projektz.dev)
 
 ## My process
@@ -61,5 +62,5 @@ I realized with this project that I could use more experience creating more stre
 ## Author
 
 - Website - [www.richcreek.dev](https://www.richcreek.dev)
-- Frontend Mentor - [@yTactika](https://www.frontendmentor.io/profile/Tactika)
+- Frontend Mentor - [@Tactika](https://www.frontendmentor.io/profile/Tactika)
 - Twitter - [@etactix](https://www.twitter.com/etactix)
