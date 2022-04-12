@@ -1,0 +1,153 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  height: 95vh;
+}
+main {
+  align-self: center;
+  margin: 0 auto;
+}
+#card {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+#overlay {
+  display: flex;
+  border-radius: 10px;
+  background-image: url(../images/image-equilibrium.jpg);
+  min-height: 300px;
+  background-size: 300px;
+}
+hr {
+  height: 0.5px;
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+#overlayIcon {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  width: 300px;
+  color: hsl(0, 0%, 100%);
+  opacity: 0;
+}
+#overlayIcon:hover {
+  opacity: 1;
+}
+#overlayIcon svg {
+  padding: 120px;
+  width: 40px;
+  height: 40px;
+}
+#overlayIcon path {
+  color: hsl(0, 0%, 100%);
+}
+h2 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+#overlay:hover {
+  cursor: pointer;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  background-blend-mode: overlay;
+}
+#price {
+  color: hsl(178, 100%, 50%);
+}
+#price path {
+  color: hsl(178, 100%, 50%);
+}
+#date {
+  float: right;
+  font-weight: 300;
+}
+#avatar {
+  display: flex;
+  margin-right: 15px;
+  color: hsl(178, 100%, 50%);
+  max-width: 30px;
+  border-radius: 15px;
+  border: solid 1px hsl(0, 0%, 100%);
+}
+#avatarDiv {
+  display: flex;
+  place-items: center;
+  max-height: 35px;
+}
+#avatarDiv p {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+div > p {
+  display: inline;
+  font-weight: 300;
+}
+div > p > span {
+  color: white;
+}
+div > p > span:hover,
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 100000;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 351px) {
+  footer {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
